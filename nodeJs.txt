@@ -1,0 +1,39 @@
+nodeJs => backend, server side => javaScript
+    => server environment
+    => JS can be used on server
+    => runtime environment for JS which run on server
+    => asynchronous non - blocking I/O model
+
+document object and localStorage API are not available in node js  
+
+single thread can manage multiple connections
+
+npm => node package manager simililar to pip(python) or apt(ubuntu)
+
+##############################################################################
+
+=> to run file
+node index.js
+node index
+
+npm init => create package.json => to initialise node project
+
+package.json contails all information about project and its dependencies
+--save represents to download package as dependencies
+dependencies are downoladed in node_modules
+we don't share node_modules folder
+
+we can create node_modules folder through package.json through
+npm install or npm i
+
+npm i -g nodemon => to install package globally
+                 => re run files when changes are made so server doesn't goes down
+
+dev dependencies => dependencies we use only for development purpose eg: nodemon                 
+
+npm install --save-dev nodemon
+
+npm uninstall nodemon => to uninstall packages
+
+package-lock.json => poora dependency tree as it is hota hai
+to install dependency ki dependency 
