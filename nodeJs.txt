@@ -12,6 +12,11 @@ npm => node package manager simililar to pip(python) or apt(ubuntu)
 
 ##############################################################################
 
+// remove "type":"module" from package.json to run commom js modules
+// add "type":"module" in package.json to run ES6 js modules
+
+##############################################################################
+
 => to run file
 node index.js
 node index
@@ -37,3 +42,8 @@ npm uninstall nodemon => to uninstall packages
 
 package-lock.json => poora dependency tree as it is hota hai
 to install dependency ki dependency 
+
+
+
+npm install express --save
+nodemon ./expressapp.js
